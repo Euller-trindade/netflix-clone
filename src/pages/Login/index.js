@@ -36,6 +36,12 @@ const Login = () => {
         src="https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/a05047e3-74a3-4803-9a6a-70710da6ea00/BR-pt-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg"
         alt="Filmes e séries da Netflix"
       />
+      <header className="header--login">
+        <img
+          src="https://www.pngall.com/wp-content/uploads/4/Netflix-Logo-HD.png"
+          alt="Netflix"
+        />
+      </header>
       <form className="login--form">
         <h1>Entrar</h1>
 
