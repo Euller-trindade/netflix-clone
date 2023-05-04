@@ -21,16 +21,7 @@
   z-index: -1;
 }
 .header--login {
-  position: fixed;
-  z-index: 999;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: all ease 0.3s;
+  padding: 0;
 }
 .header--login img {
   height: 45px;

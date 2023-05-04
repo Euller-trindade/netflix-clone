@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = ({ black }) => {
   return (
-    <header className={black ? "header--black" : "header--home"}>
+    <header className={black ? "header--black" : ""}>
       <div className="header--logo">
         <Link to="/home">
           <img
