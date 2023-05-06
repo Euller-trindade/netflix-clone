@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
+import NetflixLogo from '../../assets/netflixLogo.png';
 
 const Header = ({ black }) => {
   return (
@@ -8,7 +9,7 @@ const Header = ({ black }) => {
       <div className="header--logo">
         <Link to="/home">
           <img
-            src="https://www.pngall.com/wp-content/uploads/4/Netflix-Logo-HD.png"
+            src={NetflixLogo}
             alt="Netflix"
           />
         </Link>

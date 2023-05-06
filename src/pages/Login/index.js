@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import { useNavigate } from "react-router-dom";
+import NetflixLogo from "../../assets/netflixLogo.png";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -37,10 +38,7 @@ const Login = () => {
         alt="Filmes e séries da Netflix"
       />
       <header className="header--login">
-        <img
-          src="https://www.pngall.com/wp-content/uploads/4/Netflix-Logo-HD.png"
-          alt="Netflix"
-        />
+        <img src={NetflixLogo} alt="Netflix" />
       </header>
       <form className="login--form">
         <h1>Entrar</h1>

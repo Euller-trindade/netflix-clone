@@ -24,7 +24,7 @@
   padding: 0;
 }
 .header--login img {
-  height: 45px;
+  height: 100%;
   margin-left: 3%;
 }
 .login--form {
@@ -161,7 +161,7 @@
 }
 @media (max-width: 480px) {
   .header--login img {
-    height: 20px;
+    height: 80%;
   }
   
 }
