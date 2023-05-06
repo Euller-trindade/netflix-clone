@@ -23,6 +23,9 @@ const MovieRow = ({ items, title }) => {
         .then(setTrailerURL(""))
         .catch((error) => console.log("Erro fetching movie trailer: " + error));
     }
+    if (trailerURL === null) {
+      alert("Trailer indispensável. Por favor tente outro item. 😉👍");
+    }
   };
 
   const handleLeftArrow = () => {

@@ -40,7 +40,7 @@ const Login = () => {
       <header className="header--login">
         <img src={NetflixLogo} alt="Netflix" />
       </header>
-      <form className="login--form">
+      <form className="login--form" method="get">
         <h1>Entrar</h1>
 
         <div className="group">
@@ -75,7 +75,11 @@ const Login = () => {
         </button>
         <div className="remember--help">
           <label className="checkbox">
-            <input type="checkbox" className="option-input checkbox" checked />
+            <input
+              type="checkbox"
+              className="option-input checkbox"
+              defaultChecked
+            />
             Lembre-se de mim
           </label>
           <p className="help">Precisa de ajuda ?</p>

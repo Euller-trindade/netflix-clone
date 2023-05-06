@@ -102,8 +102,8 @@
   font-size: 16px;
   cursor: pointer;
 }
-.option-input{
- margin: 0 3px 0 0;
+.option-input {
+  margin: 0 3px 0 0;
 }
 .checkbox,
 .help {
@@ -111,7 +111,6 @@
   color: #b3b3b3;
   font-size: 13px;
   font-weight: 400;
- 
 }
 
 .remember--help {
@@ -163,5 +162,4 @@
   .header--login img {
     height: 80%;
   }
-  
 }

@@ -52,12 +52,12 @@
 .movieRow--right {
   right: 0;
 }
-.close{
+.close {
   cursor: pointer;
   transform: scale(0.9);
   transition: all ease 0.4s;
 }
-.close:hover{
+.close:hover {
   transform: scale(1.2);
 }
 .container--trailer {
