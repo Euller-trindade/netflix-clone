@@ -77,7 +77,7 @@ const Login = () => {
         </button>
         <div className="remember--help">
           <label className="checkbox">
-            <input type="checkbox" className="option-input checkbox" />
+            <input type="checkbox" className="option-input checkbox" checked />
             Lembre-se de mim
           </label>
           <p className="help">Precisa de ajuda ?</p>

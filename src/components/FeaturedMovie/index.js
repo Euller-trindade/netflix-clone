@@ -4,7 +4,6 @@ import InfoIcon from "@mui/icons-material/Info";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import { Link } from "react-router-dom";
 
-
 const FeaturedMovie = ({ item }) => {
   let firtsDate = new Date(item.first_air_date);
 
@@ -34,7 +33,15 @@ const FeaturedMovie = ({ item }) => {
             </div>
             <div className="featured--description">{description}</div>
             <div className="featured--buttons">
-              <Link to="/home" className="featured--watchbutton">
+              <Link
+                to="/home"
+                className="featured--watchbutton"
+                onClick={() =>
+                  alert(
+                    "Trailer indispensável. Por favor tente outro item. 😉👍"
+                  )
+                }
+              >
                 <PlayArrowIcon /> Assistir
               </Link>
               <Link to="/home" className="featured--mylistbutton">

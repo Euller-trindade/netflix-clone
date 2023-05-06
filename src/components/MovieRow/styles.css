@@ -15,6 +15,9 @@
   display: inline-block;
   width: 150px;
 }
+.toogle {
+  display: none;
+}
 .movieRow--item img {
   width: 100%;
   transform: scale(0.9);
@@ -49,9 +52,32 @@
 .movieRow--right {
   right: 0;
 }
+.close{
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: all ease 0.4s;
+}
+.close:hover{
+  transform: scale(1.2);
+}
+.container--trailer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(25, 26, 26);
+  margin: 0;
+  padding: 50px 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+}
 .trailer iframe {
-  padding-right: 30px;
-  height: 90%;
+  height: 100%;
 }
 @media (max-width: 760px) {
   .movieRow--left,

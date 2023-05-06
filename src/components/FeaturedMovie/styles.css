@@ -108,6 +108,15 @@
 @media (max-width: 450px) {
   .featured--buttons {
     justify-content: flex-start;
-    gap: 20px;
+    gap: 10px;
+  }
+  .featured--watchbutton,
+  .featured--mylistbutton {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .featured--watchbutton svg,
+  .featured--mylistbutton svg {
+    font-size: 22px;
   }
 }
